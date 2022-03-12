@@ -1,0 +1,93 @@
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: #fff;
+}
+
+section.heading {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 10px 5%;
+  align-items: center;
+  background-color: #fff;
+}
+
+header img {
+  width: 40%;
+  max-width: 77%;
+  height: 45px;
+  object-fit: contain;
+}
+
+header div {
+  flex: 1;
+  /* justify-self: stretch;
+   */
+  align-items: center;
+}
+
+header div.center {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+header div.left {
+  display: flex;
+  justify-content: start;
+}
+header div.right {
+  display: flex;
+  justify-content: end;
+}
+header div.center p {
+  color: #1d1b1b;
+  font-size: 15px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+header div.center p:hover {
+  transition: all ease-in 0.3s;
+  color: #C129D6;
+}
+header div.right p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1em;
+  fill: var(--e-global-color-primary);
+  color: var(--e-global-color-primary);
+  background-color: #C129D6;
+  border-radius: 10px 10px 10px 10px;
+  padding: 18px 32px 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+div.bread {
+  /* display: flex; */
+  flex-direction: column;
+  /* width: 10%; */
+  display: none;
+}
+
+.bread span {
+  height: 3px;
+  width: 20%;
+  background-color: rgb(14, 13, 13);
+  margin: 2px 0;
+}
+
+section.widget {
+  background: #17191e;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+section.widget b,
+section.widget a {
+  color: #fff;
+  text-decoration: none;
+}

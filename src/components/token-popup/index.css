@@ -1,0 +1,50 @@
+section.popup {
+  position: fixed;
+  background-color: #0000009e;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.popup .main {
+  display: flex;
+  background-color: #C129D6;
+  color: #fff;
+  width: 60%;
+  height: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 5%;
+}
+
+section.popup .main div.right {
+  display: flex;
+  justify-content: end;
+}
+
+section.popup .main img {
+  width: 60%;
+}
+
+section.popup .main span {
+  font-weight: 600;
+}
+
+section.popup > p {
+  font-size: 30px;
+  color: #fff;
+  /* margin-left: 10px; */
+  position: absolute;
+  right: 15%;
+  top: 20%;
+  background-color: grey;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+}

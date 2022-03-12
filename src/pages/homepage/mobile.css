@@ -1,0 +1,183 @@
+@media screen and (max-width: 768px) {
+  section.banner .left h3 {
+    font-size: 30px;
+  }
+
+  section.banner div {
+    padding: 0 1%;
+  }
+  section.banner .left p {
+    font-size: 13px;
+  }
+
+  section.banner .left button {
+    padding: 18px 32px;
+    font-size: 10px;
+  }
+
+  section.token-sale .main-table {
+    flex-direction: column;
+  }
+
+  section.token-sale .main-table > div:nth-child(1) {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  section.token-sale .main-table > div:nth-child(3) {
+    width: 50%;
+  }
+
+  section.after-banner {
+    padding: 2% 2%;
+  }
+  section.after-banner > div:nth-child(2) {
+    width: 100%;
+  }
+
+  section.after-banner p {
+    font-size: 18px;
+  }
+
+  section.partners div.partner-header,
+  section.team div.team-header {
+    font-size: 30px;
+  }
+
+  section.partners .images,
+  section.team .members {
+    grid-template-columns: repeat(3, 20%);
+    padding: 2% 5%;
+  }
+
+  p.name {
+    font-size: 13px;
+  }
+  section.team .members .inner p {
+    font-size: 10px;
+  }
+
+  section.team .members .inner i {
+    color: #fff;
+    background-color: #7ab694;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 12px;
+  }
+
+  section.team .members p.description {
+    font-size: 10px;
+  }
+
+  section.mini-popup {
+    width: 30%;
+  }
+
+  section.popup .main {
+    width: 90%;
+  }
+
+  section.popup > p {
+    right: 5%;
+    top: 22%;
+  }
+
+  section.popup .main img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  section.banner {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  section.banner div {
+    width: 100%;
+    padding: 0 10%;
+  }
+
+  section.banner .left {
+    text-align: left;
+  }
+
+  section.banner .left h3 {
+    font-size: 40px;
+  }
+
+  section.banner .left p {
+    font-size: 15px;
+  }
+
+  section.banner .left button {
+    padding: 18px 32px;
+    font-size: 15px;
+  }
+
+  section.after-banner {
+    margin: 40px 0;
+  }
+
+  section.partners .images,
+  section.team .members {
+    grid-template-columns: repeat(2, 40%);
+    padding: 2% 5%;
+    /* align-items: center; */
+  }
+
+  section.partners .images img {
+    height: 20px;
+  }
+
+  footer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer div div:nth-child(1) {
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  footer div div:nth-child(1) div {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer div div:nth-child(2) p,
+  footer div div:nth-child(3) p,
+  footer div div:nth-child(4) p {
+    font-size: 20px;
+  }
+
+  section.mini-popup {
+    width: 90%;
+  }
+  section.popup .main div.right {
+    justify-content: center;
+  }
+  section.popup > p {
+    top: 25%;
+    right: 10%;
+  }
+  section.popup .main {
+    width: 90%;
+    flex-direction: column;
+    padding: 0 1%;
+  }
+
+  section.popup .main img {
+    width: 50%;
+  }
+  section.popup .main div {
+    width: 100%;
+  }
+  section.popup .main div.class p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}

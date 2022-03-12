@@ -1,0 +1,419 @@
+section.main {
+  position: relative;
+  top: 128px;
+  /* height: 200; */
+  /* width: 100%; */
+  /* left: 100%; */
+  right: 0;
+  /* background-color: #000; */
+  overflow: hidden;
+}
+
+section.banner {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 30px; */
+}
+
+section.banner div {
+  width: 50%;
+  padding: 0 4%;
+}
+section.banner .left {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: right; */
+  text-align: right;
+}
+section.banner .left h3 {
+  color: #17191e;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+section.banner .left h3 span {
+  color: #C129D6;
+}
+
+section.banner .left p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+section.banner .left button {
+  border-width: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1em;
+  fill: var(--e-global-color-primary);
+  color: var(--e-global-color-primary);
+  background-color: #C129D6;
+  border-radius: 10px 10px 10px 10px;
+  padding: 18px 32px 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+section.banner .right img {
+  width: 100%;
+}
+
+section.token-sale {
+  margin-top: 60px;
+  padding: 2% 2%;
+}
+
+section.token-sale > h1 {
+  text-align: center;
+  font-size: 26px;
+}
+
+section.token-sale > p {
+  text-align: center;
+}
+
+section.token-sale .main-table {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+section.token-sale .main-table > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+section.token-sale .main-table > div:nth-child(1) p {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
+section.token-sale .main-table > div:nth-child(1) input {
+  padding: 10px 10px;
+  margin-bottom: 15px;
+  /* border: none; */
+  border-color: #C129D6;
+  outline: none;
+  border-radius: 5px;
+}
+
+/* section.token-sale .main-table > div:nth-child(1) input:active {
+  border-style: none;
+} */
+
+section.token-sale .main-table > div:nth-child(1) button {
+  border-width: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1em;
+  fill: var(--e-global-color-primary);
+  color: var(--e-global-color-primary);
+  background-color: #C129D6;
+  border-radius: 10px 10px 10px 10px;
+  padding: 18px 32px 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+section.token-sale .main-table > div:nth-child(2) {
+  background-color: #020202;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  border-radius: 10px;
+  padding: 10px 15px;
+  text-align: center;
+}
+section.token-sale .main-table div.coin-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* width: 50%; */
+  /* display: none; */
+}
+div.coin-images img {
+  width: 5%;
+  margin: 0px 10px;
+}
+.timing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timing .time {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
+.timing span {
+  font-size: 40px;
+}
+
+.time p:nth-child(1) {
+  font-size: 20px;
+}
+
+.time p:nth-child(2) {
+  font-size: 10px;
+}
+
+section.token-sale .main-table > div:nth-child(2) button {
+  border-width: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1em;
+  fill: var(--e-global-color-primary);
+  color: var(--e-global-color-primary);
+  background-color: #C129D6;
+  border-radius: 10px;
+  padding: 18px 32px;
+  color: #fff;
+  cursor: pointer;
+  width: 50%;
+  align-self: center;
+}
+
+section.token-sale .main-table > div:nth-child(2) > p {
+  font-size: 12px;
+}
+
+progress {
+}
+/* For Chrome or Safari */
+progress::-webkit-progress-bar {
+  background-color: #eeeeee;
+}
+
+progress::-webkit-progress-value {
+  background-color: #C129D6 !important;
+}
+
+/* For Firefox */
+progress {
+  background-color: #eee;
+}
+
+progress::-moz-progress-bar {
+  background-color: #C129D6 !important;
+}
+
+/* For IE10 */
+progress {
+  background-color: #eee;
+}
+
+progress {
+  background-color: #C129D6;
+  height: 15px;
+  border-radius: 10px !important;
+  width: 100%;
+  margin-top: 10px;
+}
+
+section.token-sale .main-table > div:nth-child(3) {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.token-sale .main-table > div:nth-child(3) .coin-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+section.token-sale .main-table > div:nth-child(3) .coin-images img {
+  /* height: 40px; */
+  width: 10%;
+}
+
+section.token-sale .main-table > div:nth-child(3) h4 {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+section.token-sale .main-table > div:nth-child(3) p {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+}
+
+section.after-banner {
+  margin: 100px 0;
+  text-align: right;
+  background-image: url("https://axelar.network/wp-content/uploads/2022/01/axelar-divider-tin-ver.jpg");
+  background-position: 0 11px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  /* padding: 8% 5% 5%; */
+  padding: 5% 5%;
+  /* height: 15%; */
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  position: relative;
+  color: #fff;
+}
+section.after-banner > div {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+section.after-banner p {
+  font-size: 28px;
+}
+section.after-banner i {
+  background-color: #7ab694;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0 10px;
+}
+section.about {
+  padding: 0 10%;
+}
+
+section.about h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #17191e;
+}
+
+section.about p {
+  font-size: 19px;
+  font-weight: 300;
+}
+
+section.partners {
+  background-color: #000;
+  margin: 5% 0;
+  height: 30%;
+}
+section.partners div.partner-header,
+section.team div.team-header {
+  background-image: url("https://axelar.network/wp-content/uploads/2022/01/Banner-BG-1-scaled.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  padding: 2% 10%;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 900;
+}
+
+section.partners .images,
+section.team .members {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  justify-content: space-around;
+  margin-top: 50px;
+  grid-gap: 50px 0;
+  padding: 2% 10%;
+}
+
+section.partners .images img {
+  height: 50px;
+}
+
+section.team .members img {
+  width: 100%;
+  border-radius: 10px;
+}
+p.name {
+  color: #1d1b1b;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+section.team .members .inner {
+  display: flex;
+  align-items: center;
+}
+
+section.team .members .inner p {
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0;
+}
+
+section.team .members .inner i {
+  color: #fff;
+  background-color: #7ab694;
+  padding: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+section.team .members p.description {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 2% 10%;
+}
+
+footer p {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 200;
+}
+footer > div {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px 0;
+}
+footer div div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+
+footer img {
+  width: 47%;
+  height: 58px;
+}
+
+footer div div:nth-child(1) p {
+  font-size: 15px;
+}
+
+footer div div:nth-child(1) div {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer div div:nth-child(1) div i {
+  background-color: #7ab694;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+footer div div:nth-child(2) p,
+footer div div:nth-child(3) p,
+footer div div:nth-child(4) p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+footer div div:nth-child(2) li,
+footer div div:nth-child(3) li,
+footer div div:nth-child(4) li {
+  /* //text-decoration: none; */
+  list-style: none;
+  font-size: 14px;
+  text-align: start;
+  cursor: pointer;
+}

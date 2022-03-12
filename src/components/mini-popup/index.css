@@ -1,0 +1,37 @@
+section.mini-popup {
+  position: fixed;
+  background-color: #C129D6;
+  color: #FFF;
+  width: 20%;
+  left: 20px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1%;
+  height: 15%;
+  border-radius: 10px;
+}
+section.mini-popup .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+section.mini-popup .left span {
+  font-weight: 600;
+}
+
+section.mini-popup .left p {
+  font-size: 13px;
+}
+
+section.mini-popup > p {
+  font-size: 18px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
