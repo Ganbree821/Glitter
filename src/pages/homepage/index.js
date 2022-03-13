@@ -101,7 +101,7 @@ const Homepage = () => {
               <span style={{ fontSize: "13px", marginTop: "10%" }}> </span>
             </p>
 
-            <button onClick={() => setOpenTokenModal(true)}>BUY $XGLI</button>
+            <button onClick={() => setOpenTokenModal(true)}>Buy $XGLI</button>
           </div>
           <div className="right">
             <img
@@ -118,7 +118,7 @@ const Homepage = () => {
         </section>
 
         <section className="token-sale">
-          <h1>Public Token Sale</h1>
+          <h1>IDO Token Sale</h1>
           <p>Become part of the future of commerce.</p>
           <div className="main-table">
             <div className="">
@@ -132,33 +132,38 @@ const Homepage = () => {
             </div>
 
             <div>
-              <p>Public Sale closes in:</p>
+              <p>IDO Sale closes in:</p>
               <div className="timing">
                 <Countdown
-                  date={new Date("Mar 15, 2022 15:00:00")}
+                  date={new Date("Mar 25, 2022 15:00:00")}
                   renderer={renderer}
                 />
               </div>
 
-              <progress id="file" value="75" max="100">
+              <progress id="file" value="15" max="100">
                 {" "}
                 32%{" "}
               </progress>
 
-              <p>Public Sale Address:</p>
+              <p>IDO Sale Address:</p>
               <br></br>
               <p>D1PPoKckMfq46MZ93TwDW3Xkrqr82amdKg6ffeCkVLNK</p>
 
-              <button onClick={() => setOpenTokenModal(true)}>BUY $XGLI</button>
+              <button onClick={() => setOpenTokenModal(true)}>Buy $XGLI</button>
               <div className="coin-images" style={{ marginTop: "20px" }}>
                 <img
                   src="https://cryptologos.cc/logos/solana-sol-logo.png?v=022"
                   alt="logo"
                   height={20}
                 />
+                <img
+                  src="https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=022"
+                  alt="logo"
+                  height={20}
+                />
               </div>
-              <p>$XGLI Exchange Rate</p>
-              <p>1 $XGLI = $0.075</p>
+              {/* <p>$XGLI Exchange Rate</p>
+              <p>1 $XGLI = $0.075</p> */}
             </div>
 
             <div>
@@ -168,8 +173,12 @@ const Homepage = () => {
                   src="https://cryptologos.cc/logos/solana-sol-logo.png?v=022"
                   alt="logo"
                 />
+                <img
+                  src="https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=022"
+                  alt="logo"
+                />
               </div>
-              <p>SOL</p>
+              <p>SOL/USDC</p>
             </div>
           </div>
         </section>
